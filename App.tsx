@@ -5,7 +5,7 @@ import Routes from './src/routes';
 import 'react-native-gesture-handler';
 
 export type NavigationProps = {
-  navigate: (screen:string) => void;
+  navigate: (screen:string, data?: any) => void;
 }
 
 export default function App() {
